@@ -1,0 +1,2 @@
+# thoughty
+organise your thoughts.
