@@ -2,13 +2,13 @@ version: '3.8'
 
 services:
 
-  #web:
-  #  restart: unless-stopped
-  #  build: .
-  #  depends_on:
-  #    - db
-  #  env_file:
-  #    - .env
+  web:
+    restart: unless-stopped
+    build: .
+    depends_on:
+      - db
+    env_file:
+      - .env
 
   db:
     restart: unless-stopped
