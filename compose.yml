@@ -3,7 +3,6 @@ version: '3.8'
 services:
 
   #web:
-  #  name: "thoughty-web"
   #  restart: unless-stopped
   #  build: .
   #  depends_on:
@@ -12,7 +11,6 @@ services:
   #    - .env
 
   db:
-    name: "thoughty-db"
     restart: unless-stopped
     image: mongo:latest
     volumes:
@@ -23,7 +21,6 @@ services:
     #  - "5050:27017"
 
   web_proxy:
-    name: "thoughty-web-proxy"
     image: caddy
     restart: unless-stopped
     env_file:
