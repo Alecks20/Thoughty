@@ -1,6 +1,4 @@
 ## What is Thoughty?
-Thoughty is a tool I'm developing to allow you to have a personal diary or easily organise your thoughts. For people like me who depend on others too much I wish to lower the barrier of entry.
+Modern day internet diaries are complicated, pricey and bloated.. what if it didn't have to be that way?
 
-By building a tool that allows you to write entries in the cloud, publicize them via a link or just have an easy way to lookup past writings.
-## Self-hosting?
-if you have the know how and want the privacy you can self-host our sync server via docker compose (Coming soon..)
+I'm building a completely free, clean & "retro" tool that allows you to write entries in the cloud, publicize them via a link and easily lookup past writings.
