@@ -1,0 +1,3 @@
+"https://thoughty.xyz" {
+	reverse_proxy http://web
+}
